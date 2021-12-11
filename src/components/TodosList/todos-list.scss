@@ -1,0 +1,9 @@
+.todos-list {
+  max-width: 500px;
+  max-height: 500px;
+  overflow: auto;
+  margin: auto;
+  > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

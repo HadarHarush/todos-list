@@ -1,0 +1,19 @@
+.todo-card {
+  padding: 10px 20px;
+  height: 70px;
+  background-color: #e1f5fe;
+  border-radius: 20px;
+  .todo-text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  &.done {
+    .todo-text {
+      text-decoration: line-through;
+    }
+  }
+}
